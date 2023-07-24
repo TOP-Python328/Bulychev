@@ -1,4 +1,5 @@
-n=int(input())
-h=n // 60
-m=n % 60
-print(n," мин - это ",h," час ",m, "минут.")
+year = int(input())
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print('да')
+else:
+    print('нет')
