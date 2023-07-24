@@ -1,4 +1,4 @@
-name = input("Ваше имя: ")
-name1 = input("Ваша фамилия: ")
-name2 = input("Год вашего рождения: ")
-print(name1,name,",",2023 - int(name2))
+a = int(input())
+b = int(input())
+c = float(input())
+print(max(0, a) + max(0, b) + max(0, c))
