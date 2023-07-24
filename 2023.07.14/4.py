@@ -1,4 +1,6 @@
-n,s,p=int(input()),0,1
-while n>0: c=n%10; p*=c; s+=c; n//=10
-print('Сумма цифр =',s)
-print('Произведение цифр =',p)
+a1=input()
+a2=input()
+if (ord(a1[0])-96+int(a1[1]))%2==(ord(a2[0])-96+int(a2[1]))%2:
+    print("Да")
+else:
+    print("Нет")
